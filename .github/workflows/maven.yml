@@ -30,6 +30,6 @@ jobs:
       with:
         image: senpai132/messageservice
         registry: docker.io
-        tags: latest
+        tags: 'latest'
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
